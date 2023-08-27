@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  html {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .conteudo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+  
+  .conteudo,
+  .conteudo>div {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imglogo {
+  
+    height: 100px;
+  }
+  
+  .mrImage {
+    background-image: url('imagens/mr.robo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #mrStart {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .menu {
+    position: relative;
+    height: 140px;
+    width: 550px;
+  }
+  
+  .menu>p {
+    color: rgb(204, 204, 204);
+  }
+  
+  .button-start {
+    width: 100%;
+    position: absolute;
+    top: 110%;
+  }
+  
+  .button-start>a {
+    text-decoration: none;
+    color: white;
+    background-color: #D9303E;
+    padding: 11px 15px;
+    border-radius: 4px;
+  }
+  
+  #title {
+    padding-bottom: 10px;
+  }
+  
+  audio {
+    display: none;
+  }

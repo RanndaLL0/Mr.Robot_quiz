@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+  <audio src="midia/Mr Robot.mp3" autoplay loop> </audio>
+  <div class="background">
+
+
+    <div class="center">
+
+    </div>
+
+    <div class="screen-background">
+      <div class="screen">
+        <div class="questions-history-background">
+          <div class="questions-history">
+            <div class="answering" id="question_history">1</div>
+            <div class="unanswered" id="question_history">2</div>
+            <div class="unanswered" id="question_history">3</div>
+            <div class="unanswered" id="question_history">4</div>
+            <div class="unanswered" id="question_history">5</div>
+            <div class="unanswered" id="question_history">6</div>
+            <div class="unanswered" id="question_history">7</div>
+            <div class="unanswered" id="question_history">8</div>
+            <div class="unanswered" id="question_history">9</div>
+            <div class="unanswered" id="question_history">10</div>
+          </div>
+        </div>
+
+        <div class="question-image" id="image">
+        </div>
+
+        <div class="question">
+          <p id="question_phrase">Qual é o nome do protagonista da série Mr. Robot</p>
+        </div>
+
+        <div class="question-answer-background" id="question-answer-background">
+          <div class="question-answers">
+            <button onclick="respond('0')" id="answer">Elliot Alderson</button>
+            <button onclick="respond('1')" id="answer">Edward Norton</button>
+            <button onclick="respond('2')" id="answer">Robert Esmail</button>
+            <button onclick="respond('3')" id="answer">Tyrell Wellick</button>
+            <button onclick="respond('4')" id="answer"> Phillip Price</button>
+          </div>
+        </div>
+
+        <div class="result-background none" id="result-background">
+          <div class="result">
+            <p id="result">Você acertou 6 de 10</p>
+            <a href="index.html">Tentar de novo</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="center">
+      <div class="change-question none" id="next">
+        <button onclick="nextQuestion()" id="next-button">Proxima</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
